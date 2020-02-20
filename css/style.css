@@ -1,6 +1,10 @@
+.flower{
+    transform: none;
+    transform-box: fill-box;
+    transform-origin: 50% 50%;
+    transition: 15s;
+}
+
 .flower:hover{
     transform: rotate(1080deg);
-    transform-box: fill-box;
-    transform-origin: center;
-    transition: 15s;
 }
