@@ -1,10 +1,19 @@
 .flower{
-    transform: none;
+    /* transform: none; */
     transform-box: fill-box;
     transform-origin: 50% 50%;
-    transition: 15s;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
 }
 
 .flower:hover{
-    transform: rotate(1080deg);
+    animation-play-state: running;
 }
