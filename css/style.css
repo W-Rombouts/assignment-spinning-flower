@@ -1,5 +1,5 @@
 .flower{
-    /* transform: none; */
+    /* Tutorial used: https://www.youtube.com/watch?v=zHUpx90NerM */
     transform-box: fill-box;
     transform-origin: 50% 50%;
     animation-name: rotate;
